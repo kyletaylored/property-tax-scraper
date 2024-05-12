@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Docker configuration files
+docker/Dockerfile*
+docker/docker-compose.yml*
+docker/*.env
+
+# Log files and temp directories
+logs/
+tmp/
+*.log
+*.pid
+*.lock
+
+# Editor temporary files
+*.swp
+*.swo
+*.tsort
+
+# IDE-specific files
+*.iml
+.idea/workspace.xml
+*.iws
+*.localsettings
+
+# macOS specific files
+.DS_Store
+.Trash*
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+
+# Local cache files
+/html_cache
+/json_files
+*.json
